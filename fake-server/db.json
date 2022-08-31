@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "createdAt": "2022-08-31T07:07:59.130502",
+      "modifiedAt": "2022-08-31T07:17:49.177208",
+      "id": 24,
+      "userId": 1,
+      "questionTitle": "수정해봅시다",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "\n수정되니"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:51.17767",
+      "modifiedAt": "2022-08-31T06:55:51.17767",
+      "id": 23,
+      "userId": 1,
+      "questionTitle": "다들 힘드시겠지만",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "화이팅 입니다!"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:37.190744",
+      "modifiedAt": "2022-08-31T06:55:37.190744",
+      "id": 22,
+      "userId": 1,
+      "questionTitle": "30제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "30글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:29.75391",
+      "modifiedAt": "2022-08-31T06:55:29.75391",
+      "id": 21,
+      "userId": 1,
+      "questionTitle": "29제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "29글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:26.034258",
+      "modifiedAt": "2022-08-31T06:55:26.034258",
+      "id": 20,
+      "userId": 1,
+      "questionTitle": "28제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "28글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:21.330462",
+      "modifiedAt": "2022-08-31T06:55:21.330462",
+      "id": 19,
+      "userId": 1,
+      "questionTitle": "27제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "27글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:17.755621",
+      "modifiedAt": "2022-08-31T06:55:17.755621",
+      "id": 18,
+      "userId": 1,
+      "questionTitle": "26제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "26글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:14.651134",
+      "modifiedAt": "2022-08-31T06:55:14.651134",
+      "id": 17,
+      "userId": 1,
+      "questionTitle": "25제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "25글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:11.374744",
+      "modifiedAt": "2022-08-31T06:55:11.374744",
+      "id": 16,
+      "userId": 1,
+      "questionTitle": "24제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "24글 내용"
+    },
+    {
+      "createdAt": "2022-08-31T06:55:07.627543",
+      "modifiedAt": "2022-08-31T06:55:07.627543",
+      "id": 15,
+      "userId": 1,
+      "questionTitle": "23제목",
+      "questionStatus": "QUESTION_REQUEST",
+      "content": "23글 내용"
+    }
+  ],
+  "pageInfo": {
+    "page": 1,
+    "size": 10,
+    "totalElements": 24,
+    "totalPages": 3
+  }
+}
