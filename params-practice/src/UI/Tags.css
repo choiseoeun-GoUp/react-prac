@@ -1,0 +1,31 @@
+.tagBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 12px;
+  width: 70vw;
+  height: 50px;
+}
+
+.tagBox .tag {
+  width: 130px;
+  height: 20px;
+  background-color: aliceblue;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.tagBox .tag button {
+  border: none;
+  background-color: skyblue;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.tagBox input {
+  width: 700px;
+  height: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
