@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import Prac from "./Prac";
 
 function App() {
   const [imgBase64, setImgBase64] = useState([]); // 파일 base64
@@ -34,9 +35,7 @@ function App() {
     }
   };
   const submitHandler = () => {
-    axios({
-      baseURL: API_HOST,
-      url: "/images/:username/thumbnail",
+    fetch(`http://localhost:8080/admin/postProducts`, {
       method: "POST",
       data: imgBase64,
       headers: {
@@ -50,6 +49,14 @@ function App() {
         console.error(error);
       });
   };
+  const deleteHandler = () => {
+    fetch(`http://localhost:8080/admin/deleteProducts`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    });
+  };
 
   return (
     <div className="App">
@@ -60,6 +67,8 @@ function App() {
         multiple="multiple"
       />
       <button onClick={submitHandler}>작성완료</button>
+      <button onClick={deleteHandler}>삭제</button>
+      <Prac />
     </div>
   );
 }
