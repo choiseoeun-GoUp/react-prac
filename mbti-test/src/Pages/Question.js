@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { ProgressBar, Button, ButtonGroup } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { createSearchParams, useNavigate } from "react-router-dom";
 
 import { QuestionData } from "../assets/data/questiondata";
 
@@ -25,8 +25,20 @@ const Question = () => {
       // 다음문제로 문제수 증가
       setQuestionNo(questionNo + 1);
     } else {
+      // mbti도출
+      const mbti = newScore.reduce(
+        (acc, curr) =>
+          acc +
+          (curr.score >= 2 ? curr.id.substring(0, 1) : curr.id.substring(1, 2)),
+        ""
+      );
       // 결과 페이지 이동
-      navigate("/result");
+      navigate({
+        pathname: "/result",
+        search: `?${createSearchParams({
+          mbti: mbti,
+        })}`,
+      });
     }
   };
 
