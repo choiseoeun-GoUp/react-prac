@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Button from "react-bootstrap/Button";
 import { ResultData } from "../assets/data/resultdata";
 import { useSearchParams, useNavigate } from "react-router-dom";
+import KakaoShareButton from "../component/KakaoShareButton";
 
 const Result = () => {
   const navigate = useNavigate();
@@ -41,7 +42,7 @@ const Result = () => {
           >
             테스트 다시하기
           </Button>
-          {/* <KakaoShareButton data={resultData} /> */}
+          <KakaoShareButton data={resultData} />
         </ButtonGroup>
       </Contents>
     </Wrapper>
