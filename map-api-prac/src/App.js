@@ -15,17 +15,16 @@ function App() {
   const onChange = (e) => {
     setInputText(e.target.value);
   };
-  console.log(address);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setPlace(address + inputText);
     setInputText(""); // 다시 비워주기
   };
-  console.log(place);
+
   function categoryChange(e) {
     setAdd(e.target.value);
   }
-
   useEffect(() => {
     setGungu(region[add]);
   }, [add]);
